@@ -88,7 +88,7 @@ public class SeparateDataStorePlugin extends Plugin
         case WAY: return originalWays.get(other.getId());
         case RELATION: return originalRelations.get(other.getId());
         }
-        return null;	
+        return null;    
     }
     
     protected void enqueueForUpload(IPrimitive prim, HashMap<String, String> tags, boolean onlySds) {

@@ -61,7 +61,7 @@ public class SdsMenu extends JMenu implements LayerChangeListener {
     }
   
     @Override
-    public void activeLayerChange(Layer oldLayer, Layer newLayer) {	setEnabledState(); }
+    public void activeLayerChange(Layer oldLayer, Layer newLayer) {    setEnabledState(); }
 
     @Override
     public void layerAdded(Layer newLayer) { setEnabledState(); }
